@@ -1,0 +1,41 @@
+{
+    "required_api_version":"^2.0.0",
+    "name":"github_cloner",
+    "description":"clone github repo into directories according project's main language",
+    "developer_name":"kathent leung",
+    "icon": "images/icon.png",
+    "options":{
+        "query_debounce": 0.2
+    },
+    "preferences":[
+        {
+            "id":"gg_repo",
+            "name":"github cloner keyword",
+            "type":"keyword",
+            "description":"github cloner keyword",
+            "default_value": "gg",
+            "options":{}
+        },
+        {
+            "id":"gg_base_dir",
+            "name": "github cloner base_dir",
+            "type":"input",
+            "description":"github cloner base_dir",
+            "default_value":""
+        },
+        {
+            "id":"gg_language_dir",
+            "name": "github cloner language dir",
+            "type":"text",
+            "description":"github cloner language dir",
+            "default_value":""
+        },
+        {
+            "id":"gg_icon_map",
+            "name": "github cloner language icon path map",
+            "type":"text",
+            "description":"github cloner language icon path map",
+            "default_value":""
+        }
+    ]
+}
